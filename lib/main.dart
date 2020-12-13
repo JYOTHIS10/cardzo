@@ -1,6 +1,5 @@
 import 'package:Cardzo/DocScanner/DSmain.dart';
 import 'DocScanner/DSmain.dart';
-import 'DocScanner/drawer.dart';
 import 'DocTools/DTHome.dart';
 import 'EBookReader/ERHome.dart';
 import 'package:flutter/cupertino.dart';
@@ -34,10 +33,6 @@ class CardzoHome extends StatelessWidget {
   CardzoHome({this.title}) : super();
   Widget build(BuildContext context) {
     return new Scaffold(
-      drawer: SafeArea(
-          child: Drawer(
-            child: DocDrawer(), //Goto app drawer
-          )),
       appBar: new AppBar(
         title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
