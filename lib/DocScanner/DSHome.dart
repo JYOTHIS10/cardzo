@@ -248,10 +248,6 @@ class _DSHomeState extends State<DSHome> {
                                       .pdfPath);
                                 }),
                             IconButton(
-                              icon: Icon(Icons.cloud_upload,color: ThemeData.dark().accentColor,),
-                              onPressed: () {},
-                            ),
-                            IconButton(
                                 icon: Icon(Icons.more_vert,color: ThemeData.dark().accentColor,),
                                 onPressed: () {
                                   showModalSheet(
